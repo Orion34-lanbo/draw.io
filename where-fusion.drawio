@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T12:32:27.367Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.1" etag="7OPxT6nYo_VaJnLGnSOq" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-04T12:50:58.074Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.1" etag="rDs28DyOj6GRGx_rhP6N" type="github">
   <diagram id="d8bZDvyaRTqL3WgqzmWe" name="第 1 页">
     <mxGraphModel dx="3781" dy="1156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -71,7 +71,7 @@
         <mxCell id="cq9_FSoDsHFWqfSbP8nX-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="cq9_FSoDsHFWqfSbP8nX-22" target="cq9_FSoDsHFWqfSbP8nX-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cq9_FSoDsHFWqfSbP8nX-22" value="sparse tensor index" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+        <mxCell id="cq9_FSoDsHFWqfSbP8nX-22" value="sparse tensor values" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
           <mxGeometry x="1155" y="165" width="288.75" height="70" as="geometry" />
         </mxCell>
         <mxCell id="cq9_FSoDsHFWqfSbP8nX-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="cq9_FSoDsHFWqfSbP8nX-25" target="cq9_FSoDsHFWqfSbP8nX-4">
@@ -105,12 +105,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cq9_FSoDsHFWqfSbP8nX-29" value="lmhlo_disc.sparse_reshape" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="1">
-          <mxGeometry x="330" y="490" width="288.75" height="70" as="geometry" />
+          <mxGeometry x="330" y="560" width="288.75" height="70" as="geometry" />
         </mxCell>
         <mxCell id="cq9_FSoDsHFWqfSbP8nX-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="cq9_FSoDsHFWqfSbP8nX-36" target="cq9_FSoDsHFWqfSbP8nX-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cq9_FSoDsHFWqfSbP8nX-36" value="sparse tensor value" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="cq9_FSoDsHFWqfSbP8nX-36" value="sparse tensor indices" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="330" y="165" width="288.75" height="70" as="geometry" />
         </mxCell>
         <mxCell id="cq9_FSoDsHFWqfSbP8nX-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="cq9_FSoDsHFWqfSbP8nX-43" target="cq9_FSoDsHFWqfSbP8nX-28">
@@ -145,8 +145,8 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cq9_FSoDsHFWqfSbP8nX-64" value="NewShape" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="490" width="288.75" height="70" as="geometry" />
+        <mxCell id="cq9_FSoDsHFWqfSbP8nX-64" value="NewShape" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="560" width="288.75" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
